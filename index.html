@@ -167,13 +167,13 @@
             <button class="navbar-link" data-nav-link>Portfolio</button>
           </li>
 
-          
+
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>
 
-         
+
 
         </ul>
 
@@ -408,6 +408,11 @@
         <section class="clients">
 
           <h3 class="h3 clients-title">My CV</h3>
+          <li class="navbar-item">
+            <a href="https://res.cloudinary.com/djke2rvb5/image/upload/v1663908918/Dhruv_s_Resume_page-0001_btd6l2.jpg">
+            <button class="navbar-link"  data-nav-link>Download CV</button>
+          </a>
+          </li>
 
           <ul class="clients-list has-scrollbar">
 
@@ -500,7 +505,7 @@
               <span>2022 — Present</span>
 
               <p class="timeline-text">
-                
+
               </p>
 
             </li>
@@ -512,12 +517,12 @@
               <span>2021 - Present</span>
 
               <p class="timeline-text">
-                
+
               </p>
 
             </li>
 
-            
+
 
           </ol>
 
@@ -613,227 +618,104 @@
           <h2 class="h2 article-title">Portfolio</h2>
         </header>
 
-        <section class="projects">
 
-          <ul class="filter-list">
 
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
+        <div class="filter-select-box">
+
+          <button class="filter-select" data-select>
+
+            <div class="select-value" data-selecct-value>Select category</div>
+
+            <div class="select-icon">
+              <ion-icon name="chevron-down"></ion-icon>
+            </div>
+
+          </button>
+
+          <ul class="select-list">
+
+            <li class="select-item">
+              <button data-select-item>All</button>
             </li>
 
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+            <li class="select-item">
+              <button data-select-item>Web design</button>
             </li>
 
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+            <li class="select-item">
+              <button data-select-item>Applications</button>
             </li>
 
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
+            <li class="select-item">
+              <button data-select-item>Web development</button>
             </li>
 
           </ul>
+
+        </div>
+
+        <ul class="project-list">
+
+          <li class="project-item  active" data-filter-item data-category="web development">
+            <a href="#">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img
+                  src="https://play-lh.googleusercontent.com/n3vb2UjC3bCldAzy_WayG8wAMdIspefAwQrPTgrKn6HMmTzGbyU5TELYKolQ2MxedkQD"
+                  alt="finance" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Tic Tac Toe</h3>
+
+              <p class="project-category">Web development</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="applications">
+            <a href="#">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Task Manager</h3>
+
+              <p class="project-category">Applications</p>
+
+            </a>
+          </li>
+          <li class="project-item  active" data-filter-item data-category="web development">
+            <a href="#">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img
+                  src="data:image/jpeg;base64,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"
+                  alt="finance" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Covid-19 Tracker</h3>
+
+              <p class="project-category">Web development</p>
+
+            </a>
+          </li>
+
+
+
+        </ul>
 
         </section>
 
@@ -1047,7 +929,10 @@
 
         <section class="mapbox" data-mapbox>
           <figure>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.3691765737763!2d80.03710011521785!3d12.819404090955889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f76c4db87a47%3A0x341fa471f8027d68!2sSRM%20University%2C%20Kattankulathur%2C%20Tamil%20Nadu%20603203!5e0!3m2!1sen!2sin!4v1663906679537!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.3691765737763!2d80.03710011521785!3d12.819404090955889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f76c4db87a47%3A0x341fa471f8027d68!2sSRM%20University%2C%20Kattankulathur%2C%20Tamil%20Nadu%20603203!5e0!3m2!1sen!2sin!4v1663906679537!5m2!1sen!2sin"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </figure>
         </section>
 
